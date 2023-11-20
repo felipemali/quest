@@ -12,7 +12,7 @@ moveButton.style.left = `${
 moveButton.style.top = `${fixedButton.offsetTop}px`;
 
 moveButton.addEventListener("click", () => {
-  const spaceRect = space.getBoundingClientRect(); // Obtém as dimensões e posição da div "space"
+  const spaceRect = space.getBoundingClientRect();
   const spaceLeft = spaceRect.left;
   const spaceTop = spaceRect.top;
   const spaceWidth = spaceRect.width;
