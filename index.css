@@ -2,6 +2,9 @@ button {
   border: none;
   border-radius: 5px 5px;
 }
+body {
+  touch-action: none;
+}
 .space {
   width: 90%;
   height: 500px;
