@@ -5,7 +5,7 @@ const button1 = document.querySelector(".fixed-btn");
 const text = document.querySelector(".textt");
 
 // Posiciona o botão "Não" ao lado do botão "Sim" com um espaço inicial entre eles
-const initialSpace = 50; // Espaço inicial entre os botões
+const initialSpace = 150; // Espaço inicial entre os botões
 moveButton.style.left = `${
   fixedButton.offsetLeft + fixedButton.clientWidth + initialSpace
 }px`;

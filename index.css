@@ -3,31 +3,32 @@ button {
   border-radius: 5px 5px;
 }
 .space {
-  width: 400px;
-  height: 300px;
+  width: 90%;
+  height: 500px;
   margin: auto;
+  /* border: 1px solid red; */
 }
 
 .container {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 80%;
+  height: 700px;
   border: 1px solid #000;
-  margin: 20px;
+  margin: 2rem auto 0 auto;
 }
 .fixed-btn {
   position: absolute;
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
-  padding: 10px 25px;
+  padding: 15px 55px;
   background-color: #3498db;
   color: #fff;
   cursor: pointer;
 }
 .move-btn {
   position: absolute;
-  padding: 10px 25px;
+  padding: 15px 55px;
   background-color: #e74c3c;
   color: #fff;
   cursor: pointer;
@@ -35,4 +36,6 @@ button {
 h2 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  padding: 0 1rem;
 }
