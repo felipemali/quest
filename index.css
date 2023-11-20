@@ -21,18 +21,17 @@ button {
   top: 46%;
   left: 35%;
   transform: translate(-50%, -50%);
-  padding: 15px 55px;
+  padding: 25px 65px;
   background-color: #3498db;
   color: #fff;
   cursor: pointer;
 }
 .move-btn {
   position: absolute;
-  padding: 15px 55px;
+  padding: 25px 65px;
   background-color: #e74c3c;
   color: #fff;
   cursor: pointer;
-  margin-top: 0.5rem;
 }
 h2 {
   text-align: center;
